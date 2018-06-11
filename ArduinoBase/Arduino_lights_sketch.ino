@@ -1,3 +1,6 @@
+/* Arduino Base with lights on/off.
+Начальный этап. Построение ардуино с вкл/выкл лампочек. */
+ 
 void setup() 
 { 
 pinMode(2, OUTPUT); 
