@@ -31,6 +31,7 @@ delay(100);
 } 
 
 /* Функция lights_off поочередно выключает светодиоды. С номера пина, равного первому полученному значению, до номера пина, равного второму полученному значению */
+
 void lights_off(byte pin_start, byte pin_finish){ 
 if (pin_start < pin_finish){ 
 for (int pin = pin_start; pin <= pin_finish; pin++) 
