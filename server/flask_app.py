@@ -43,7 +43,7 @@ def index():
 
 @app.route('/history')
 def history():
-    values = Temperature.get_last_values(30).all()
+    values = Temperature.get_last_values(30)
     return render_template('chart.html', values=values)
 
 
