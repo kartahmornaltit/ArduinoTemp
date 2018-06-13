@@ -47,7 +47,7 @@ def history():
     return render_template('chart.html', values=values)
 
 
-@app.route('/add_data')
+@app.route('/add_data', methods=['POST'])
 def add_data():
     data = request.json
     t = Temperature(value=data["value"], datetime=data["datetime"])
