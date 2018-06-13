@@ -102,4 +102,4 @@
 * RAM: 1 Gb
 * Storage: Минимум 1 Gb
 #### СТЕК ТЕХНОЛОГИЙ
-* Python? Node JS?.
+* Python Flask.
