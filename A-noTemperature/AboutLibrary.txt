@@ -1,0 +1,2 @@
+Библиотеку esp8266wifi.h можно скачать из репозитория по ссылке: https://github.com/ekstrand/ESP8266wifi
+Или https://github.com/esp8266/Arduino/releases
