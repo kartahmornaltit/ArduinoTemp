@@ -1,2 +1,0 @@
-Библиотека OneWire
-Оф: https://github.com/PaulStoffregen/OneWire
