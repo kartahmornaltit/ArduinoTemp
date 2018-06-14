@@ -77,8 +77,6 @@ void loop()
   }
   Serial.println();
   Serial.println("closing connection");
-  delay(5000);
-}
-
-delay(1000); //ждем секунду
+ 
+  delay(1000); //ждем секунду
 }
