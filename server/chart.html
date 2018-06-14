@@ -3,7 +3,7 @@
 {% block app_content %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
 <div id = "container">
-    <canvas id = "canvas" height="400" width="8000"></canvas>
+    <canvas id = "canvas" height="720" width="1024"></canvas>
 </div>
 <script>
     var canvas = document.getElementById('canvas');
@@ -45,9 +45,9 @@
             scales: {
                 xAxes: [{
                     ticks: {
-                      min: 0,
-                      stepSize: 1,
-                      max: 200000
+                      min: data[0],
+                      stepSize: (data[-1] - data[0]) / 30,
+                      max: data[-1]
                     },
                     type: 'linear',
                     position: 'bottom',
@@ -58,9 +58,9 @@
                 }],
                 yAxes: [{
                     ticks: {
-                      min: 0,
+                      min: -100,
       //                stepSize: 0.1,
-                      max: 8
+                      max: 100
                     },
                     scaleLabel: {
                         display: false,
