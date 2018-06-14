@@ -67,5 +67,7 @@ def add_data():
 
 
 if __name__ == "__main__":
+    # Создание базы данных
+    db.create_all()
     # Запуск сервера
     app.run()
